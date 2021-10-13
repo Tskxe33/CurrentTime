@@ -21,4 +21,5 @@ const currentTime = document.querySelector(".currentTime");
     currentTime.textContent = time;
 }
 
+currentTime();
 setInterval(function(){ currentTime()}, 1000);
