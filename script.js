@@ -14,7 +14,7 @@ const currentTime = document.querySelector(".currentTime");
     const seconds = now.getSeconds();
     let session = 'AM';
 
-    session = hours > 12 ? 'AM' : 'PM';
+    session = hours > 12 ? 'PM' : 'AM';
 
     
     let time = `${getZero(hours)}${hours}:${getZero(minutes)}${minutes}:${getZero(seconds)}${seconds} ${session}`
